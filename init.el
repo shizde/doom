@@ -34,7 +34,7 @@
        ;;fill-column       ; a `fill-column' indicator
        Welcome to the Emacs shell
 
-~/.doom.d $ hl-todo           ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
+;;~/.doom.d $ hl-todo           ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
        ;;hydra
        ;;indent-guides     ; highlighted indent columns
        ligatures         ; ligatures and symbols to make your code pretty again
@@ -186,61 +186,3 @@
        :config
        ;;literate
        (default +bindings +smartparens))
-
-hl-todo: command not found
-highlight: Could not read input file:
-TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
-hydra: command not found
-indent-guides: command not found
-highlighted: command not found
-ligatures: command not found
-ligatures: command not found
-minimap: command not found
-show: command not found
-modeline: command not found
-snazzy,: command not found
-nav-flash: command not found
-blink: command not found
-neotree: command not found
-a: command not found
-ophints: command not found
-Writing file 1 of 6: the.html
-Writing file 2 of 6: region.html
-Writing file 3 of 6: an.html
-Writing file 4 of 6: operation.html
-Writing file 5 of 6: acts.html
-Writing file 6 of 6: on.html
-highlight: Could not read input files:
-the
-region
-an
-operation
-acts
-... [1 of 6 failures not shown, use --verbose switch to print all failures]
-Symbol’s function definition is void: popup
-tame: command not found
-tabs: terminal type 'dumb' cannot reset tabs
-a: command not found
-a: command not found
-unicode: command not found
-extended: command not found
-vc-gutter: command not found
-vcs: command not found
-vi-tilde-fringe: command not found
-fringe: command not found
-window-select: command not found
-visually: command not found
-workspaces: command not found
-tab: command not found
-separate: command not found
-zen: command not found
-distraction-free: command not found
-:editor: command not found
-Symbol’s function definition is void: evil
-come: command not found
-file-templates: command not found
-auto-snippets: command not found
-:	q
-:	q
-askjdan
-askjdan
