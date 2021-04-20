@@ -31,6 +31,28 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
+;;(def-package! org-super-agenda
+;;  :after org-agenda
+;;  :init
+;;  (setq org-super-agenda-group '((:name "Today"
+;;                                  :time-grid t
+;;                                  :scheduled today)
+;;                                 (:name "Due today"
+;;                                  :deadline today)
+;;                                 (:name "Important"
+;;                                  :priority "A")
+;;                                 (:name "Overdue"
+;;                                 :deadline past)
+;;                               (:name "Due soon"
+;;                                  :deadline future)
+;;                                 (:name "Big Outcomes"
+;;                                  :tag "bo"))
+;;        )
+;;  :config
+;;  (org-super-agenda-mode)
+;;  )
+
+
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)

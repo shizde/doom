@@ -49,3 +49,8 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 ;;(!package m4ue)
+;;
+;;(package! org-super-agenda)
+(package! sql-indent)
+(package! ob-typescript)
+(package! prettier-js)
