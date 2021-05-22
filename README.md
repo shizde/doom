@@ -1,3 +1,3 @@
 # Shizde's Doom Emacs
 
-- on progress (5%)
+- in progress (5%)
