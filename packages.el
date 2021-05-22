@@ -52,5 +52,34 @@
 ;;
 ;;(package! org-super-agenda)
 (package! sql-indent)
+
 (package! ob-typescript)
+
 (package! prettier-js)
+
+(package! matlab-mode)
+
+(package! org-roam-server)
+
+(package! org-roam-bibtex)
+;(package! org-roam-server
+;  :recipe (:host github :repo "org-roam/org-roam-bibtex"))
+(unpin! org-roam company-org-roam)
+(unpin! bibtex-completion helm-bibtex ivy-bibtex)
+
+(package! org-journal)
+
+(package! org-kanban
+  :recipe (:host github :repo "gizmomogwai/org-kanban"))
+
+(package! org-pdftools
+  :recipe (:host github :repo "fuxialexander/org-pdftools"))
+
+(package! org-ref
+  :recipe (:host github :repo "jkitchin/org-ref"))
+
+(package! org-noter
+  :recipe (:host github :repo "weirdNox/org-noter"))
+
+(package! org-noter-pdftools
+  :recipe (:host github :repo "fuxialexander/org-pdftools"))
